@@ -1,0 +1,22 @@
+print === MAIN MENU ===
+print 1. Play
+print 2. Quit
+var choice = 0
+input choice
+
+if choice == 1
+    call start pass
+    input choice
+    if choice == 1
+        print You win!
+    else
+        print You stayed!
+    end
+end
+
+function start pass
+    print You woke up in a dark room
+    print Do you want to exit
+    print 1. Yes
+    print 2. No
+end
